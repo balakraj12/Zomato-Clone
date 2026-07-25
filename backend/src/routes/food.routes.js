@@ -19,10 +19,10 @@ router.post('/',
     foodController.createFood)
 
 
-/* GET /api/food/ [protected] */
-router.get("/",
-    authMiddleware.authUserMiddleware,
-    foodController.getFoodItems)
+// /* GET /api/food/ [protected] */
+// router.get("/",
+//     authMiddleware.authUserMiddleware,
+//     foodController.getFoodItems)
 
 
 router.post('/like',
