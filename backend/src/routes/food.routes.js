@@ -26,8 +26,8 @@ router.get("/",
 
 
 router.post('/like',
-    authMiddleware.authUserMiddleware,
-    foodController.likeFood)
+    // authMiddleware.authUserMiddleware,
+    // foodController.likeFood)
 
 
 router.post('/save',
