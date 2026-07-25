@@ -36,10 +36,10 @@ router.post('/save',
 )
 
 
-router.get('/save',
-    authMiddleware.authUserMiddleware,
-    foodController.getSaveFood
-)
+// router.get('/save',
+//     authMiddleware.authUserMiddleware,
+//     foodController.getSaveFood
+// )
 
 
 
