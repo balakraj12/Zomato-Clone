@@ -12,11 +12,11 @@ const upload = multer({
 })
 
 
-// /* POST /api/food/ [protected]*/
-// router.post('/',
-//     authMiddleware.authFoodPartnerMiddleware,
-//     upload.single("mama"),
-//     foodController.createFood)
+/* POST /api/food/ [protected]*/
+router.post('/',
+    authMiddleware.authFoodPartnerMiddleware,
+    upload.single("mama"),
+    foodController.createFood)
 
 
 /* GET /api/food/ [protected] */
