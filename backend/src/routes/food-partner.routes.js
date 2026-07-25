@@ -14,6 +14,6 @@ const router = express.Router();
 /* /api/food-partner/:id */
 router.get("/:id",
     authMiddleware.authUserMiddleware,
-    foodPartnerController.getFoodPartnerById)
+    // foodPartnerController.getFoodPartnerById)
 
 module.exports = router;
