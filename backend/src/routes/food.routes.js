@@ -7,9 +7,9 @@ const router = express.Router();
 const multer = require('multer');
 
 
-const upload = multer({
-    storage: multer.memoryStorage(),
-})
+// const upload = multer({
+//     storage: multer.memoryStorage(),
+// })
 
 
 /* POST /api/food/ [protected]*/
